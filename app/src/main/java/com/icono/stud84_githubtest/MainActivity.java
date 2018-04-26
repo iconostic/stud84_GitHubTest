@@ -15,5 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         tv = findViewById(R.id.iv);
         tv.setText("Nice to meet you");
+        
+        tv.setTextColor(0xffff0000);
     }
 }
